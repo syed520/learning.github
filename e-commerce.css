@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: o;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-around;
+    font-size: 25px;
+}
+.logo{
+    /* padding: 0 20px; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.logo:hover{
+    color: orange;
+    transform: scale(1.1);
+}
+#search{
+    width: 800px;
+    border-radius: 20px;
+    height: 40px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+#search:hover{
+    background-color: orange;
+    color: white;
+}
+nav > p > img{
+    height: 40px;
+    width: 90px;
+}
+.nav_text{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 0;
+    font-size: 23px;
+}
+h1{
+    text-align: center;
+    font-weight: lighter;
+}
+.circle{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.one{
+    justify-content: space-evenly;
+    /* border-radius: 50%; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.one:hover{
+    border-bottom: 3px solid black;
+}
+
+.one >img{
+    display: flex;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+span{
+text-align: center;
+justify-content: center;
+font-size: 25px;
+width: 200px;
+/* padding: 25px; */
+margin-top: 10px;
+/* flex-wrap:wrap */
+}
+.one:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: gray;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+.button:hover{
+    rotate: 360deg;
+    transition: 0.6s;
+    cursor: pointer;
+    transform: scale(1.2);
+    background-color: white;
+}
+/* .box > img{
+    display: flex;
+    font-size: 30px;
+    flex-wrap: wrap;
+} */
+.box{
+    height: 300px;
+    width: 150px;
+    font-size: 25px;
+}
+.box >p{
+    display: flex;
+    flex-wrap: wrap;
+}
+#footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: black;
+	color: white;
+	padding: 10px;
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
